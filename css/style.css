@@ -1,0 +1,105 @@
+
+/* For debug purpose
+* {
+   outline: 1px solid red !important;
+}
+*/
+
+
+body{
+	font-family: Lato, sans-serif;
+	color: #000000;
+	font-weight: 300;
+}
+
+hr {
+	border-color: #000000;
+	border-width: 2px;
+}
+
+h1 {
+	font-size: 60px;
+}
+
+
+.text-muted {
+	color: #7d97ad;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+img {
+}
+
+
+.title-super {
+	font-size: 60px;
+}
+
+.title-logo {
+	width: 120px;
+	margin-top: 20px;
+}
+
+.img-responsive {
+    margin: 0 auto;
+}
+
+.col-md-4 {
+  position: relative;
+  min-height: 300px;
+  min-width: 300px;
+}
+img {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.text {
+  visibility: hidden;
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 900px) {
+	.container {
+		width: 900px;
+	}
+}
+
+.col-md-4 {
+	padding: 0px;
+}
+
+.col-md-6 {
+	padding: 0px;
+}
+
+@media screen and (max-width: 500px) {
+	body {
+		font-size: 13px;
+	}
+	.title-super {
+		font-size: 35px;
+	}
+	.title-logo {
+		width: 80px;
+		margin-top: 5px;
+	}
+	.text-muted{
+		font-size: 30px;
+	}
+	.col-md-4 {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+}
+
+
+
