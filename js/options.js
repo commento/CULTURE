@@ -7,6 +7,11 @@ document.getElementById('metro').addEventListener('click', function(){
      }
 });
 
+metro.onended = function() {
+  document.getElementById('metrotext').style.visibility = 'hidden';
+  document.getElementById('metro').style.filter = 'brightness(100%)';
+};
+
 var gucci = new Audio("snd/gucci.mp3");
 document.getElementById('gucci').addEventListener('click', function(){
      if (gucci.paused) {
@@ -16,6 +21,10 @@ document.getElementById('gucci').addEventListener('click', function(){
      }
 });
 
+gucci.onended = function() {
+  document.getElementById('guccitext').style.visibility = 'hidden';
+  document.getElementById('gucci').style.filter = 'brightness(100%)';
+};
 
 var savage = new Audio("snd/21.mp3");
 document.getElementById('t1').addEventListener('click', function(){
@@ -26,6 +35,11 @@ document.getElementById('t1').addEventListener('click', function(){
      }
 });
 
+savage.onended = function() {
+  document.getElementById('21text').style.visibility = 'hidden';
+  document.getElementById('t1').style.filter = 'brightness(100%)';
+};
+
 var drake = new Audio("snd/drake.mp3");
 document.getElementById('drake').addEventListener('click', function(){
      if (drake.paused) {
@@ -35,6 +49,10 @@ document.getElementById('drake').addEventListener('click', function(){
      }
 });
 
+drake.onended = function() {
+  document.getElementById('draketext').style.visibility = 'hidden';
+  document.getElementById('drake').style.filter = 'brightness(100%)';
+};
 
 var travis = new Audio("snd/travis.mp3");
 document.getElementById('travis').addEventListener('click', function(){
@@ -45,6 +63,11 @@ document.getElementById('travis').addEventListener('click', function(){
      }
 });
 
+travis.onended = function() {
+  document.getElementById('travistext').style.visibility = 'hidden';
+  document.getElementById('travis').style.filter = 'brightness(100%)';
+};
+
 var jahlil = new Audio("snd/jahlil.mp3");
 document.getElementById('jahlil').addEventListener('click', function(){
      if (jahlil.paused) {
@@ -53,6 +76,11 @@ document.getElementById('jahlil').addEventListener('click', function(){
        document.getElementById('jahlil').style.filter = 'brightness(50%)';
      }
 });
+
+jahlil.onended = function() {
+  document.getElementById('jahliltext').style.visibility = 'hidden';
+  document.getElementById('jahlil').style.filter = 'brightness(100%)';
+};
 
 var eoe = new Audio("snd/808.mp3");
 document.getElementById('808').addEventListener('click', function(){
@@ -63,6 +91,11 @@ document.getElementById('808').addEventListener('click', function(){
      }
 });
 
+eoe.onended = function() {
+  document.getElementById('808text').style.visibility = 'hidden';
+  document.getElementById('808').style.filter = 'brightness(100%)';
+};
+
 var migos = new Audio("snd/migos.mp3");
 document.getElementById('migos').addEventListener('click', function(){
      if (migos.paused) {
@@ -72,6 +105,11 @@ document.getElementById('migos').addEventListener('click', function(){
      }
 });
 
+migos.onended = function() {
+  document.getElementById('migostext').style.visibility = 'hidden';
+  document.getElementById('migos').style.filter = 'brightness(100%)';
+};
+
 var mike = new Audio("snd/mike.mp3");
 document.getElementById('mike').addEventListener('click', function(){
      if (mike.paused) {
@@ -80,3 +118,8 @@ document.getElementById('mike').addEventListener('click', function(){
        document.getElementById('mike').style.filter = 'brightness(50%)';
      }
 });
+
+mike.onended = function() {
+  document.getElementById('miketext').style.visibility = 'hidden';
+  document.getElementById('mike').style.filter = 'brightness(100%)';
+};
