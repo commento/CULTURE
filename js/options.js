@@ -83,17 +83,17 @@ jahlil.onended = function() {
 };
 
 var eoe = new Audio("snd/808.mp3");
-document.getElementById('808').addEventListener('click', function(){
+document.getElementById('o').addEventListener('click', function(){
      if (eoe.paused) {
        eoe.play();
        document.getElementById('808text').style.visibility = 'visible';
-       document.getElementById('808').style.filter = 'brightness(50%)';
+       document.getElementById('o').style.filter = 'brightness(50%)';
      }
 });
 
 eoe.onended = function() {
   document.getElementById('808text').style.visibility = 'hidden';
-  document.getElementById('808').style.filter = 'brightness(100%)';
+  document.getElementById('o').style.filter = 'brightness(100%)';
 };
 
 var migos = new Audio("snd/migos.mp3");
